@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <div class="container">
+            <div class="sign-up-form">
+                <!-- INTRO -->
+                <div class="intro">
+                    <div class="intro-main">
+                        <span class="intro-profession"> frontend and backend </span>
+                        <h1 class="intro-heading">Learn to program by watching professionals</h1>
+                        <p class="intro-text">See how experienced developers solve problems in real time</p>
+                    </div>
+                    <div class="intro-sub"><strong>Try it free 7 days</strong>, then $20/mo</div>
+                </div>
+
+                <!-- FORM -->
+                <form class="form" action="#" method="post">
+                    <h2 class="form-heading">Sign up for the course and <br> get free 7 days</h2>
+                    <div class="form-box">
+                        <input  class="form-input" type="text" name="name" placeholder="Anna |" aria-label="name" required>
+                        <span class="active-state-message">First Name cannot be empty</span>
+                    </div>
+                    <div class="form-box">
+                        <input  class="form-input" type="text"  name='last-name' placeholder="Last Name" aria-label="last-name" required>
+                        <span class="active-state-message">Last Name cannot be empty</span>
+                    </div>
+                    <div class="form-box">
+                        <input  class="form-input" type="email" placeholder="Email Address" name="email" aria-label="email" required>
+                        <span class="active-state-message">Looks like this is not an email</span>
+                    </div>
+                    <div class="form-box">
+                        <input  class="form-input" type="password"  placeholder="Password"  name="password" aria-label="password" required>
+                        <span class="active-state-message">Password cannot be empty</span>
+                    </div>
+                    <button class='form-submit-button' type="submit">Claim your free trial</button>
+                    <small class="term-and-services">By clicking the button, you are agreeing to our <a href="#"
+                            class="term-and-services-link">Terms and Services</a>
+                    </small>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
