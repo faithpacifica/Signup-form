@@ -194,12 +194,10 @@ img {
 .form-box {
     display: flex;
     flex-direction: column;
-
 }
 
 .form-box:last-child {
     margin-bottom: 63px;
-    /*not wvorking*/
 }
 
 .form-box:not(:last-child) {
@@ -211,18 +209,29 @@ img {
     border-bottom: 1px solid var(--text-color);
     padding-top: 15px;
     padding-bottom: 14px;
+    font-weight: bold;
 }
 
-.form-input:active::placeholder{
+.form-input::placeholder{
+    font-weight: normal;
+}
+
+
+.form-input:active{
     color:var(--red);
 }
 
-.form-input:active{
-    border-bottom:1px solid var(--red);
+/* .form-input:invalid::placeholder {
+    color: var(--red);
 }
 
+.form-input:invalid{
+    border-bottom:1px solid var(--red);
+} */
+
 .form-input:active .active-state-message{
-    display: block; /* TODO:not working */
+    display: block; 
+    /* TODO:not working */
 }
 
 .form-submit-button {
