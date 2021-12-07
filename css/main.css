@@ -221,13 +221,13 @@ img {
     color:var(--red);
 }
 
-/* .form-input:invalid::placeholder {
+.form-input:invalid::placeholder {
     color: var(--red);
 }
 
 .form-input:invalid{
     border-bottom:1px solid var(--red);
-} */
+}
 
 .form-input:active .active-state-message{
     display: block; 
